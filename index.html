@@ -1,4 +1,4 @@
-<!OCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -15,8 +15,9 @@
   </head>
   <body>
     <div class="topBar">
+      <div class="topWidth">
       <div class="logo">
-        <img src="./assets/bandcampLogo.png" height="30px" alt="Bandcamp" />
+        <img src="./assets/bandcampLogo.png" height="30" alt="Bandcamp" />
         <br clear="all" />
         Discover amazing new music and <span class="blueGradient">directly support</span> the
         artists who make it.
@@ -26,34 +27,35 @@
           <input type="text" name="search" value="Search and discover music" id="searchBar" />
         </div>
         <ul>
-          <li><a href="" target="_blank">sign up</a></li>
-          <li class="logInLink"><a href="" target="_blank">log in</a></li>
+          <li><a href="#" target="_blank">sign up</a></li>
+          <li class="logInLink"><a href="#" target="_blank">log in</a></li>
         </ul>
+      </div>
       </div>
     </div>
     <div class="wrapper">
       <div style="margin-top: 110px;"></div>
       <div class="articles">
         <div class="bigArticle divLink">
-          <img src="./assets/bigArticle.jpg" />
+          <img src="./assets/bigArticle.jpg" alt="big article" />
           <a href="#" target="_blank" class="fillLink"><span></span></a>
           <div class="bigArticleText">
             <h1>Big Ups: Boris' Atsuo Mizuno and Takeshi Ohtani Pick Their Bandcamp Favorites</h1>
             Ten favorites curated by the Japanese metallurgists spanning metal, hardcore,
             experimental and more.<br />
-            <p><a target="_blank" class="readMoreBtn">read more</a></p>
+            <p><a href="#" target="_blank" class="readMoreBtn">read more ➜</a></p>
           </div>
         </div>
         <div class="smallArticles">
           <div class="smallArticle divLink">
-            <img src="./assets/one.jpg" />
+            <img src="./assets/one.jpg" alt="one" />
             <a href="#" target="_blank" class="fillLink"><span></span></a>
             <div class="smallArticleText">
               Best of Bandcamp Contemporary Classical: August 2020<br />LIST
             </div>
           </div>
           <div class="smallArticle divLink">
-            <img src="./assets/two.jpg" />
+            <img src="./assets/two.jpg" alt="two" />
             <a href="#" target="_blank" class="fillLink"><span></span></a>
             <div class="smallArticleText">
               Essential Releases: Power Metal, Italian Jazz, Dream Pop and More<br />
@@ -61,7 +63,7 @@
             </div>
           </div>
           <div class="smallArticle divLink">
-            <img src="./assets/three.jpg" />
+            <img src="./assets/three.jpg" alt="three" />
             <a href="#" target="_blank" class="fillLink"><span></span></a>
             <div class="smallArticleText">
               Bandcamp Weekly<br />GUEST HOST NUBYA GARCIE SHOWCASES HER DEBUT ALBUM 'SOURCE'
@@ -173,30 +175,63 @@
       <div class="wrapper">
         <div class="smallHeaderWidth"><span class="smallHeader">BANDCAMP DAILY</span></div>
         <div class="bandcampDaily">
-          <div class="article" id="largeArticle"><div class="largeArticleImage"> <img src="./assets/largeArticle.jpg" alt=""/></div>  </div>
-          <div class="article">
-            <div class="articleImage"> <img src="./assets/bigArticle.jpg" alt=""/> </div>
+          <div class="article" id="largeArticle">
+            <div class="largeArticleImage"><img src="./assets/largeArticle.jpg" alt="" /></div>
+            <div class="largeArticleText">
+              <span style="font-weight: bold; font-size: x-large;">Motherhood<br /></span>
+              <span style="font-size: x-large;">by No Joy<br /></span>
+              <p>
+                <span style="font-family: serif;">
+                  The Montréal band's latest resembles a MAGNET Magazine sampler from an alternate
+                  universe, swerving through slickly produced pop, metal, and shoegaze..</span
+                >
+                <span style="font-weight: bold; color: #318ba1;">read more</span>
+              </p>
+              <div class="articleBottom" id="largeArticleBottom">
+                ALBUM OF THE DAY
+              </div>
+            </div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="./assets/one.jpg" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/bigArticle.jpg" alt="" /></div>
+            <p>Big Ups: Boris’ Atsuo Mizuno and Takeshi Ohtani Pick Their Bandcamp Favorites</p>
+            <div class="articleBottom">LIST</div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="./assets/two.jpg" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/one.jpg" alt="" /></div>
+            <p>Best of Bandcamp Contemporary Classical: August 2020</p>
+            <div class="articleBottom">LIST</div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/two.jpg" alt="" /></div>
+            <p>Essential Releases: Power Metal, Italian Jazz, Dream Pop and More</p>
+            <div class="articleBottom">LIST</div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/four.jpg" alt="" /></div>
+            <p>
+              The Shortlist, August 2020: Psychedelic Hip-Hop, Intimate Indie Rock, Riled-Up Punk,
+              and More
+            </p>
+            <div class="articleBottom">FEATURE</div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/five.jpg" alt="" /></div>
+            <p>Admas: The Music of the Ethiopian Diaspora in 1980’s Washington D.C.</p>
+            <div class="articleBottom">FEATURE</div>
           </div>
           <div class="article">
-            <div class="articleImage"><img src="" alt=""/> </div>
+            <div class="articleImage"><img src="./assets/six.jpg" alt="" /></div>
+            <p>The Latest from Jazz Icon Charles Tolliver Reflects His 50-Plus Years in Music</p>
+            <div class="articleBottom">FEATURE</div>
+          </div>
+          <div class="article">
+            <div class="articleImage"><img src="./assets/seven.jpg" alt="" /></div>
+            <p>Where to Begin With Grindcore Laureates Pig Destroyer</p>
+            <div class="articleBottom">LIST</div>
           </div>
         </div>
-        <div class="moreBtn"></div>
+        <div class="moreBtn"><a href="#" target="_blank">more</a></div>
         <div class="emailSignUp">
           <div class="text">Get the best of Bandcamp Daily, delivered every Friday</div>
           <div class="emailForm">
