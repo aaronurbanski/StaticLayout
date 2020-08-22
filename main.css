@@ -235,6 +235,9 @@ color: #408ea3;
   position:relative;
   padding: 30px;
 }
+.largeArticleText span {
+  margin: 0;
+}
 #largeArticleBottom {
   margin-left: 0;
   padding-left: 0;
@@ -245,6 +248,34 @@ color: #408ea3;
   color: #777;
   padding: 10px;
 }
-.article p {
+.article p, span{
   margin: 10px;
+}
+.moreBtn {
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: right;
+}
+.moreBtn a {
+  text-decoration: none;
+  color: #408ea3;
+  border: 1px solid #408ea3;
+  border-radius: 4px;
+  padding: 4px;
+}
+.emailSignUp {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.emailBtn {
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
