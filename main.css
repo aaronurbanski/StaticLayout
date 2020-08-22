@@ -1,0 +1,205 @@
+.wrapper {
+  width: 100vw;
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+.topBar {
+  position: fixed;
+  display: flex;
+  width: 98vw;
+  top: 0;
+  background-color:white;
+  padding-bottom: 20px;
+  justify-content: center;
+  z-index: 12;
+}
+.logo {
+  width: 80%;
+  margin-left: 5vw;
+}
+.logo > img  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loginSearch {
+  width: 20%;
+  margin-left: auto;
+  margin-right: 10vw;
+  }
+.searchBar {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.blueGradient {
+  font-weight: bold;
+	color: #408ea3;
+	background: -webkit-linear-gradient(left, #6046FE, #1DA0C3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 600;
+}
+.loginSearch ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.loginSearch a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+.logInLink {
+  margin-left: 25px;
+}
+.articles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  filter: brightness(90%);
+}
+.bigArticle {
+  position: relative;
+  width: 75%;
+  height: 100%;
+  filter: brightness(90%);
+}
+.bigArticle img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.bigArticle:hover {
+  filter: brightness(100%);
+}
+.divLink a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.bigArticleText {
+  color:white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.40);
+  margin: 40px 40px;
+  display: block;
+  position: absolute;
+  bottom: 4px;
+  width: 80%;
+  filter: brightness(110%);
+}
+.readMoreBtn {
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.smallArticles {
+  position: relative;
+  width: 25%;
+  margin-right: 40px;
+}
+.smallArticle {
+  position: relative;
+  height: 33.3%;
+  filter: brightness(90%);
+}
+
+.smallArticle img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.smallArticle:hover {
+  filter: brightness(100%);
+}
+.smallArticleText {
+  color:white;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.40);
+  position: relative;
+  bottom: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  filter: brightness(140%);
+}
+.factoid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 40px;
+}
+.smallHeader {
+color: #408ea3;
+}
+.sellingNow {
+  width: 75%;
+  margin: 0 auto;
+}
+.albumsSellingNow {
+  display: flex;
+  justify-content: space-between;
+}
+.album {
+  display: block;
+  margin: 3px 3px 3px 3px;
+ max-width: 126px;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.grayBg {
+  width: 98vw;
+  background-color: lightgray;
+}
+.smallHeaderWidth {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.bandcampDaily {
+  display: grid;
+  row-gap: 40px;
+  width: 75%;
+  justify-content: space-between;
+  justify-items: space-between;
+  grid:   280px 280px/206px 206px 206px 206px 206px ;      
+  margin: 0 auto;
+}
+#largeArticle {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.largeArticleImage {
+  height: 100%
+  margin: 0 auto;
+}
+#largeArticle img {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  
+}
+.articleImage {
+  width: 206px;
+  height: 140px;
+}
+.article img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article {
+  background-color: white;
+}
